@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class GPACalculatorMcGill {
+    // converting letter to number grade
     public static double getGradePoints(String grade) {
         char[] letterGrade = {grade.charAt(0), grade.charAt(1)};
         String letter = new String(letterGrade);
