@@ -53,6 +53,7 @@ public class GPACalculatorMcGill {
 
         // coursePanel dynamically adds rows for each class to input course grade and credit info
         // TODO: (later) add another column to specify "course #1" for each course, using panelRow
+        // this is where i would add an editable column so they can label which course is associated with the credits/grade
 
         final int[] panelRow = {0};
 
